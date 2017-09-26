@@ -1,11 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class CommentList extends Component {
-  render() {
-    return (
-      <div className="comment-list">
-        comment list
-      </div>
-    )
-  }
-}
+const CommentList = props => <ul className="comment-list"></ul>
+export default CommentList
