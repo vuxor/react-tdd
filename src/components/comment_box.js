@@ -21,8 +21,11 @@ import * as actions from '../actions';
   render() {
     return (
       <form onSubmit={this.handleSubmit.bind(this)} className="comment-box">
+        <h4>Add a comment</h4>
         <textarea value={this.state.comment} onChange={this.handleOnChange.bind(this)} />
-        <button action="submit">Submit Comment</button>
+        <div>
+          <button action="submit">Submit Comment</button>
+        </div>
       </form>
     )
   }
