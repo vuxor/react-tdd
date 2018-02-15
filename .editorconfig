@@ -1,0 +1,4 @@
+# 2 space indentation
+  2 [*.{js, jsx}]
+  3 indent_style = space
+  4 indent_size = 2
